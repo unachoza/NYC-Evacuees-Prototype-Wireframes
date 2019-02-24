@@ -1,0 +1,180 @@
+body{
+    background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1549152866/iphoneXaccuratemask.png') center fixed no-repeat; 
+   display: flex;
+   text-align: center;
+   height: 97vh;
+}
+h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+h2{
+    color: white;
+    font-family: Roboto;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.phone-container {
+    background-color: #e2dfdf;
+    height: 555px;
+    width: 287px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-size: 100%;
+   
+}
+
+/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1px;
+    
+}
+.icon-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid black
+}
+h6{
+    margin-top: 23px;
+    font-size: 8px;    
+}
+
+/* Landing Pages Style */
+.e-buttons-container{
+    width: 271px;
+    height: 450px;
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.e-button {
+    text-align: left;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: red;
+    opacity: .8;
+    width: 111px;
+    height: 110px;
+    margin: 10px;
+}
+.button-text{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+}
+#eb1{
+    background-color: #F93C64;
+    color: white;   
+}
+#eb2{
+    background-color:#00C0FF;
+}
+#eb3{
+    background-color: #2560E7
+}
+#eb4{
+    background-color: #FFB700
+}
+#eb5{
+    background-color: #0D1C7B;
+    
+}
+#im-r{
+margin-bottom: 28px
+}
+#im-g{
+margin-bottom: 38px;
+}
+#im-b{
+    margin-bottom: 38px;
+}
+#im-y {
+    margin-bottom: 56px;
+}
+#im-p {
+    margin-bottom: 38px;
+}
+
+
+
+/* Injury Page style */
+.page-header{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 15px;
+    padding-right: 30px;
+}
+.medQ-container{
+    width: 271px;
+    height: 450px;
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 374px;
+    left: 18px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+#first-card{
+    display: none;
+}
+#third-card{
+    display: none;
+}
+#second-card{
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.responses-container{
+    display: flex;
+
+}
+.card-text {
+    font-family: 'Roboto', sans-serif;;
+
+font-weight: 900;
+line-height: normal;
+font-size: 12px;
+}
+
+/* #grey{
+    width: 282px;
+    border-radius: 3px;
+    background-color: e2dfdf;
+} */
+.yesNo {
+   
+    color: white;
+    margin: 20px;;
+    width: 80px;
+    height: 20px;
+    border-radius: 9px;
+    background: #FE3004;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
