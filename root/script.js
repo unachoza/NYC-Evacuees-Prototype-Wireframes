@@ -1,5 +1,5 @@
 const pageToInjury = () => {
-    window.location.href='./identifyInjury.html'
+    window.location.href='./medical.html'
     console.log('I was clicked')
 }
 
